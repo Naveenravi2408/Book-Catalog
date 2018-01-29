@@ -1,0 +1,70 @@
+Testing BookApp.cpp
+
++ Inserted at index 0: Book{ISBN=978-0130460417, last=Mak, first=Ronald, title=Java Number Cruncher, category=technical}
+
++ Inserted at index 1: Book{ISBN=978-1501163401, last=King, first=Stephen, title=Sleeping Beauties, category=fiction}
+
++ Inserted at index 1: Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+
++ Inserted at index 1: Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+
++ Inserted at index 3: Book{ISBN=978-0471744870, last=Horstmann, first=Cay, title=Object-Oriented Design, category=technical}
+
++ Inserted at index 4: Book{ISBN=978-1439156810, last=King, first=Stephen, title=On Writing - A Memoir of the Craft, category=history}
+
+? All books in the catalog:
+Book{ISBN=978-0130460417, last=Mak, first=Ronald, title=Java Number Cruncher, category=technical}
+Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+Book{ISBN=978-0471744870, last=Horstmann, first=Cay, title=Object-Oriented Design, category=technical}
+Book{ISBN=978-1439156810, last=King, first=Stephen, title=On Writing - A Memoir of the Craft, category=history}
+Book{ISBN=978-1501163401, last=King, first=Stephen, title=Sleeping Beauties, category=fiction}
+
+? Books by author Mak:
+Book{ISBN=978-0130460417, last=Mak, first=Ronald, title=Java Number Cruncher, category=technical}
+Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+
+? Books in category technical:
+Book{ISBN=978-0130460417, last=Mak, first=Ronald, title=Java Number Cruncher, category=technical}
+Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+Book{ISBN=978-0471744870, last=Horstmann, first=Cay, title=Object-Oriented Design, category=technical}
+
+? Books in category fiction:
+Book{ISBN=978-1501163401, last=King, first=Stephen, title=Sleeping Beauties, category=fiction}
+
+? Book with ISBN 978-0470383285:
+Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+
++ Inserted at index 1: Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+*** Duplicate ISDN ***
+
+? Books in category history:
+Book{ISBN=978-1439156810, last=King, first=Stephen, title=On Writing - A Memoir of the Craft, category=history}
+
+? Books by author King:
+Book{ISBN=978-1439156810, last=King, first=Stephen, title=On Writing - A Memoir of the Craft, category=history}
+Book{ISBN=978-1501163401, last=King, first=Stephen, title=Sleeping Beauties, category=fiction}
+
+? Book with ISBN 978-0470385285:
+
+? Books by author Horstmann:
+Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+Book{ISBN=978-0471744870, last=Horstmann, first=Cay, title=Object-Oriented Design, category=technical}
+
+- Removed Book{ISBN=978-0130460417, last=Mak, first=Ronald, title=Java Number Cruncher, category=technical}
+
+$ *** Invalid command ***
+
+- Removed Book{ISBN=978-0471744870, last=Horstmann, first=Cay, title=Object-Oriented Design, category=technical}
+
+- Removed Book{ISBN=978-1439156811, last=, first=, title=, category=none}
+*** Book not found ***
+
+? All books in the catalog:
+Book{ISBN=978-0470177075, last=Mak, first=Ronald, title=Writing Compilers, category=technical}
+Book{ISBN=978-0470383285, last=Horstmann, first=Cay, title=Big C++, category=technical}
+Book{ISBN=978-1439156810, last=King, first=Stephen, title=On Writing - A Memoir of the Craft, category=history}
+Book{ISBN=978-1501163401, last=King, first=Stephen, title=Sleeping Beauties, category=fiction}
+
+pass 
